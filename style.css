@@ -1,13 +1,9 @@
-@font-face {
-  font-family: 'norseregular';
-  src: url('norse-kawl-webfont.woff2') format('woff2'),
-       url('norse-kawl-webfont.woff') format('woff');
-  font-weight: z;
-  font-style: normal;
-
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+* {
+  font-family: Montserrat;
 }
 html {
-  background-color: rgb(240, 232, 198);
+  color: #222;
   font-size: 1em;
   line-height: 1.5;
   box-sizing: border-box
@@ -32,7 +28,7 @@ p {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: norseregular;
+  font-family: Montserrat;
   font-weight: 600;
   color: #484848;
   margin: 30px 0 25px 0;
@@ -97,7 +93,7 @@ h1,h2,h3,h4,h5,h6 {
   border: none;
   padding-bottom: 4px;
   text-transform: uppercase;
-  font-family:  Norse, helvetica, arial, sans-serif;
+  font-family: Montserrat, helvetica, arial, sans-serif;
   font-weight: 700
 }
 
@@ -207,15 +203,13 @@ h1,h2,h3,h4,h5,h6 {
 /* header   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
 
 .header {
-  background-color: rgb(240, 232, 198);
+  background-color: #fff;
   position: fixed;
   width: 80%;
   z-index: 3;
   margin-left: 10%;
   margin-right: 10%;
   padding: 20px 0;
-  font-family: norseregular, helvetica, arial, sans-serif;
- 
 }
 
 .header ul {
@@ -223,7 +217,7 @@ h1,h2,h3,h4,h5,h6 {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: rgb(240, 232, 198);
+  background-color: #fff;
 }
 
 .header li a {
@@ -234,7 +228,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: rgb(240, 232, 198);
+  background-color: #fff;
 }
 
 .header .logo {
@@ -244,7 +238,6 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 2em;
   padding: 2px 0px;
   text-decoration: none;
-  
 }
 
 /* menu */
@@ -389,7 +382,7 @@ h1,h2,h3,h4,h5,h6 {
 .footer {
   font-size: 14px;
   padding: 40px 0;
-  background: rgb(240, 232, 198);
+  background: #fff;
   color: #888
 }
 
@@ -403,7 +396,6 @@ h1,h2,h3,h4,h5,h6 {
   list-style-type: none;
   margin-top: 35px
 }
-@media screen {
 
 .footer ul li {
   margin-bottom: 10px
@@ -416,9 +408,9 @@ h1,h2,h3,h4,h5,h6 {
   padding-bottom: 4px;
   text-transform: uppercase;
   color: #000;
-  font-family: norseregular, helvetica, arial, sans-serif;
+  font-family: Montserrat, helvetica, arial, sans-serif;
   font-weight: 700;
-  font-family: norseregular, helvetica, arial, sans-serif;
+  font-family: Montserrat, helvetica, arial, sans-serif;
   font-weight: 400;
   color: #888;
   text-transform: none
@@ -468,58 +460,3 @@ h1,h2,h3,h4,h5,h6 {
   opacity: 1
 }
 
-.header img{
- width: 80px;
-
-}
-
-.link{
-  font-family: norseregular, helvetica, arial, sans-serif;
-  font-weight: 700;
-  font-family: norseregular, helvetica, arial, sans-serif;
-  font-weight: 1000;
-  color: rgb(70, 67, 67);
-  
-}
-.container{
-  font-family: norseregular, helvetica, arial, sans-serif;
-  font-weight: 700;
-  font-family: norseregular, helvetica, arial, sans-serif;
-  font-weight: 400;
-  color: #888;
-  text-transform: none
-}
-
-.Landimg img{
-  margin-left: 10%;
-  width: 80%;
-  height: 80%;
-  margin-top: 3%;
-}
-
-
-h1{
-  align-items: center;
-  margin-left: 40%;
-}
-
-h2{
-  align-items: center;
-  margin-left: 35%;
-}
-
-.mapouter{
-  margin-left: 10%;
-}
-
-
-.mainstatement h1{
-  align-items: center;
-  margin: 15%;
-  font-weight: 2000;
-  position: absolute;
-  margin-top: 10%;
-  color: rgb(0, 0, 0);
-  background-color: rgba(250, 235, 215, 0.5);
-
-}
